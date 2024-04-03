@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property resource="logback-dev.properties" />
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>%d{yyyy-MMM-dd  HH:mm:ss.SSS} %-5level [%thread] [app_name=${application.name}] [trace_id=%X{X-B3-TraceId}] [parent_span_id=%X{X-B3-ParentSpanId}] [span_id=%X{X-B3-SpanId}] %logger{36} - %msg%n</Pattern>
+        </layout>
+    </appender>
+
+    <appender name="jsonOnConsole" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.contrib.json.classic.JsonLayout">
+            <jsonFormatter class="ch.qos.logback.contrib.jackson.JacksonJsonFormatter">
+                <prettyPrint>true</prettyPrint>
+            </jsonFormatter>
+            <timestampFormat>yyyy-MM-dd' 'HH:mm:ss.SSS</timestampFormat>
+        </layout>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="console" />
+    </root>
+
+    <logger name="id.co.danamon" level="debug" additivity="false">
+        <appender-ref ref="console" />
+    </logger>
+
+</configuration>
