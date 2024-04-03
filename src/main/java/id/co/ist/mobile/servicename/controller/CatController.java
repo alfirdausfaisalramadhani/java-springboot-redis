@@ -64,7 +64,7 @@ public class CatController {
     @ResponseBody
     @PostMapping(value="/test/inquiry")
     public ResponseEntity<Object> inquiry(@RequestBody String jsonReq) throws JsonProcessingException {
-        log.info("INCOMING JSON ORI : {}", jsonReq);
+        log.info("INCOMING JSON : {}", jsonReq);
 
         String ret = "";
         RequestInquiryModel requestInquiryModel = objectMapper.readValue(jsonReq, RequestInquiryModel.class);
