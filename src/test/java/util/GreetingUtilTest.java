@@ -1,7 +1,7 @@
 package util;
 
-import id.co.danamon.dbank.servicename.constant.Gender;
-import id.co.danamon.dbank.servicename.util.GreetingUtil;
+import id.co.ist.mobile.servicename.constant.Gender;
+import id.co.ist.mobile.servicename.util.GreetingUtil;
 import org.junit.Test;
 import org.mockito.MockedStatic;
 import org.mockito.Mockito;

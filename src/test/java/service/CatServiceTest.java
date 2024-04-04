@@ -1,13 +1,13 @@
 package service;
 
-import id.co.danamon.dbank.Application;
-import id.co.danamon.dbank.common.util.MapperUtil;
-import id.co.danamon.dbank.servicename.constant.Gender;
-import id.co.danamon.dbank.servicename.domain.dao.CatOwner;
-import id.co.danamon.dbank.servicename.domain.dto.external.CatFactDto;
-import id.co.danamon.dbank.servicename.domain.dto.internal.CatOwnerDto;
-import id.co.danamon.dbank.servicename.repository.CatOwnerRepository;
-import id.co.danamon.dbank.servicename.service.CatService;
+import id.co.ist.mobile.Application;
+import id.co.ist.mobile.common.util.MapperUtil;
+import id.co.ist.mobile.servicename.constant.Gender;
+import id.co.ist.mobile.servicename.domain.dao.CatOwner;
+import id.co.ist.mobile.servicename.domain.dto.external.CatFactDto;
+import id.co.ist.mobile.servicename.domain.dto.internal.CatOwnerDto;
+import id.co.ist.mobile.servicename.repository.CatOwnerRepository;
+import id.co.ist.mobile.servicename.service.CatService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
 import org.junit.Test;

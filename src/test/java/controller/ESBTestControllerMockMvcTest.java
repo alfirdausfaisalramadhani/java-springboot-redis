@@ -1,10 +1,10 @@
 package controller;
 
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
-import id.co.danamon.dbank.Application;
-import id.co.danamon.dbank.common.constant.ApiVersion;
-import id.co.danamon.dbank.servicename.domain.dto.external.accountdetailinquiry.CIMBAcctInqSvc;
-import id.co.danamon.dbank.servicename.service.ESBService;
+import id.co.ist.mobile.Application;
+import id.co.ist.mobile.common.constant.ApiVersion;
+import id.co.ist.mobile.servicename.domain.dto.external.accountdetailinquiry.CIMBAcctInqSvc;
+import id.co.ist.mobile.servicename.service.ESBService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Rule;
 import org.junit.Test;

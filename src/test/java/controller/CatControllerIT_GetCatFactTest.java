@@ -1,13 +1,13 @@
 package controller;
 
-import id.co.danamon.dbank.Application;
-import id.co.danamon.dbank.common.constant.ApiVersion;
-import id.co.danamon.dbank.common.constant.GenericResponseKey;
-import id.co.danamon.dbank.common.constant.SourceSystem;
-import id.co.danamon.dbank.common.domain.ApiResponse;
-import id.co.danamon.dbank.common.exception.MobileRestException;
-import id.co.danamon.dbank.servicename.domain.dto.external.CatFactDto;
-import id.co.danamon.dbank.servicename.service.CatService;
+import id.co.ist.mobile.Application;
+import id.co.ist.mobile.common.constant.ApiVersion;
+import id.co.ist.mobile.common.constant.GenericResponseKey;
+import id.co.ist.mobile.common.constant.SourceSystem;
+import id.co.ist.mobile.common.domain.ApiResponse;
+import id.co.ist.mobile.common.exception.MobileRestException;
+import id.co.ist.mobile.servicename.domain.dto.external.CatFactDto;
+import id.co.ist.mobile.servicename.service.CatService;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import lombok.extern.slf4j.Slf4j;

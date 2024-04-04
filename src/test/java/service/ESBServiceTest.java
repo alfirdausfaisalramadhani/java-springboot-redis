@@ -1,15 +1,15 @@
 package service;
 
-import id.co.danamon.dbank.Application;
-import id.co.danamon.dbank.common.constant.SourceSystem;
-import id.co.danamon.dbank.common.exception.MobileRestException;
-import id.co.danamon.dbank.servicename.config.SOAPConnector;
-import id.co.danamon.dbank.servicename.domain.dto.common.esb.body.Status;
-import id.co.danamon.dbank.servicename.domain.dto.common.esb.header.CIMBProvider;
-import id.co.danamon.dbank.servicename.domain.dto.common.esb.header.CIMBProviderRespStatus;
-import id.co.danamon.dbank.servicename.domain.dto.common.esb.header.CIMBProviderRespStatusList;
-import id.co.danamon.dbank.servicename.domain.dto.external.accountdetailinquiry.CIMBAcctInqSvc;
-import id.co.danamon.dbank.servicename.service.ESBService;
+import id.co.ist.mobile.Application;
+import id.co.ist.mobile.common.constant.SourceSystem;
+import id.co.ist.mobile.common.exception.MobileRestException;
+import id.co.ist.mobile.servicename.config.SOAPConnector;
+import id.co.ist.mobile.servicename.domain.dto.common.esb.body.Status;
+import id.co.ist.mobile.servicename.domain.dto.common.esb.header.CIMBProvider;
+import id.co.ist.mobile.servicename.domain.dto.common.esb.header.CIMBProviderRespStatus;
+import id.co.ist.mobile.servicename.domain.dto.common.esb.header.CIMBProviderRespStatusList;
+import id.co.ist.mobile.servicename.domain.dto.external.accountdetailinquiry.CIMBAcctInqSvc;
+import id.co.ist.mobile.servicename.service.ESBService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;

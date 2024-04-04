@@ -1,9 +1,9 @@
 package repository;
 
-import id.co.danamon.dbank.Application;
-import id.co.danamon.dbank.servicename.constant.Gender;
-import id.co.danamon.dbank.servicename.domain.dao.CatOwner;
-import id.co.danamon.dbank.servicename.repository.CatOwnerRepository;
+import id.co.ist.mobile.Application;
+import id.co.ist.mobile.servicename.constant.Gender;
+import id.co.ist.mobile.servicename.domain.dao.CatOwner;
+import id.co.ist.mobile.servicename.repository.CatOwnerRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

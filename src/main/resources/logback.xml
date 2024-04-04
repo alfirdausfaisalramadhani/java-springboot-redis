@@ -2,7 +2,7 @@
 <configuration>
     <property resource="logback.properties" />
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
-        <layout class="id.co.danamon.dbank.common.config.logger.MaskedPatternLayout">
+        <layout class="id.co.ist.mobile.common.config.logger.MaskedPatternLayout">
             <Pattern>%d{yyyy-MMM-dd  HH:mm:ss.SSS} %-5level [%thread] [app_name=${application.name}] [trace_id=%X{X-B3-TraceId}] [parent_span_id=%X{X-B3-ParentSpanId}] [span_id=%X{X-B3-SpanId}] %logger{36} - %msg%n</Pattern>
         </layout>
     </appender>

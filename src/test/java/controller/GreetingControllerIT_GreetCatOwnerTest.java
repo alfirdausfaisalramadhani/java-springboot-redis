@@ -1,9 +1,9 @@
 package controller;
 
-import id.co.danamon.dbank.Application;
-import id.co.danamon.dbank.common.constant.ApiVersion;
-import id.co.danamon.dbank.common.constant.GenericResponseKey;
-import id.co.danamon.dbank.servicename.service.GreetingService;
+import id.co.ist.mobile.Application;
+import id.co.ist.mobile.common.constant.ApiVersion;
+import id.co.ist.mobile.common.constant.GenericResponseKey;
+import id.co.ist.mobile.servicename.service.GreetingService;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import lombok.extern.slf4j.Slf4j;
@@ -21,8 +21,8 @@ import wiremock.org.apache.http.HttpStatus;
 
 import java.util.Optional;
 
-import static id.co.danamon.dbank.servicename.constant.ServiceResponseKey.NOT_FOUND;
-import static id.co.danamon.dbank.servicename.constant.ServiceResponseKey.PARAMETER_INVALID;
+import static id.co.ist.mobile.servicename.constant.ServiceResponseKey.NOT_FOUND;
+import static id.co.ist.mobile.servicename.constant.ServiceResponseKey.PARAMETER_INVALID;
 import static io.restassured.RestAssured.given;
 import static org.mockito.ArgumentMatchers.any;
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;

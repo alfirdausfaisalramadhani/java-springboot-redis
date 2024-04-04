@@ -180,7 +180,7 @@ To check service health, you can go to this url when Application is running: `ht
 src
 ├── main
 │   └── java
-│   │  └── id.co.danamon.dbank.servicename
+│   │  └── id.co.ist.mobile.servicename
 │   │      ├── component                                               # Package containing class that can be used as parent class for service class
 │   │      ├── config                                                  # Package containing class with annotation @Config or any class for configuration 
 │   │      ├── constant                                                # Package containing constant class
@@ -198,7 +198,7 @@ src
 │   └── resources
 └── test
     └── java
-    │  └── id.co.danamon.dbank.servicename
+    │  └── id.co.ist.mobile.servicename
     │      ├── component                                               # Package containing unit test class for component class
     │      ├── controller                                              # Package containing integration test & unit test for controller class
     │      ├── domain                                                  # Package containing dto & pojo class for testing purpose
